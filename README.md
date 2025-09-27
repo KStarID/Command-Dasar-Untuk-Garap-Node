@@ -1,4 +1,4 @@
-# Command Dasar Untuk Garap Node
+# Command Dasar Untuk Garap Node Pemula
 
 ### 1. BUAT & HAPUS FOLDER/FILE
 
