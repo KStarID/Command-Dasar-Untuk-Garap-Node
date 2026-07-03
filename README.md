@@ -5,7 +5,7 @@
 Jalankan di VPS baru:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/KStarID/Command-Dasar-Untuk-Garap-Node/main/setup.sh | bash
+bash <(curl -sSL https://raw.githubusercontent.com/KStarID/Command-Dasar-Untuk-Garap-Node/main/setup.sh)
 ```
 
 Atau clone dulu:
