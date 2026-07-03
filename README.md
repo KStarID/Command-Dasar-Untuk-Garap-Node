@@ -1,5 +1,40 @@
 # Command Dasar Untuk Garap Node Pemula
 
+## 🚀 Auto Install (One Click)
+
+Jalankan di VPS baru:
+
+```bash
+curl -sSL https://raw.githubusercontent.com/KStarID/Command-Dasar-Untuk-Garap-Node/main/setup.sh | bash
+```
+
+Atau clone dulu:
+
+```bash
+git clone https://github.com/KStarID/Command-Dasar-Untuk-Garap-Node.git
+cd Command-Dasar-Untuk-Garap-Node
+chmod +x setup.sh
+./setup.sh
+```
+
+**Menu:**
+```
+1) Install SEMUA (Update + Docker + Go + Node.js + Python + Screen + Git)
+2) Update Sistem VPS
+3) Install Docker
+4) Install Go (Golang)
+5) Install Node.js (via NVM)
+6) Install Python3
+7) Install Screen
+8) Install Git
+9) Install Docker Compose
+0) Cek Spesifikasi VPS
+```
+
+---
+
+## 📖 Command Manual
+
 ### 1. BUAT & HAPUS FOLDER/FILE
 
 ```
@@ -95,7 +130,7 @@ sudo apt-mark unhold docker-ce docker-ce-cli containerd.io && sudo apt-get remov
 ### 5. Go (Golang)
 ```
 #install go
-LATEST_GO=$(curl -s https://go.dev/VERSION?m=text) && wget https://go.dev/dl/${LATEST_GO}.linux-amd64.tar.gz && sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf ${LATEST_GO}.linux-amd64.tar.gz && echo "export PATH=\$PATH:/usr/local/go/bin:\$HOME/go/bin" >> ~/.bash_profile && source ~/.bash_profile && go version
+LATEST_GO=$(curl -s https://go.dev/VERSION?m=text) && wget https://go.dev/dl/${LATEST_GO}.linux-amd64.tar.gz && sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf ${LATEST_GO}.linux-amd64.tar.gz && echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> ~/.bash_profile && source ~/.bash_profile && go version
 ```
 ```
 #uninstall go
